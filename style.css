@@ -1,0 +1,1641 @@
+/* ==========================================================================
+   DELIXI - KHOA KIM LANDING PAGE STYLES
+   ========================================================================== */
+
+/* Main Layout Centering & Body Reset */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+}
+
+.html-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background:
+    linear-gradient(0deg, rgba(250, 249, 249, 1) 0%, rgba(250, 249, 249, 1) 100%),
+    linear-gradient(0deg, rgba(250, 249, 249, 1) 0%, rgba(250, 249, 249, 1) 100%),
+    linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 100%);
+}
+
+.html-body .div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  flex: 1 0 auto;
+}
+
+/* Floating Back To Top Button */
+.html-body .button-back-to-top {
+  all: unset;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  right: 32px;
+  bottom: 32px;
+  z-index: 1000;
+  background-color: #faf9f9;
+  border: 1px solid #e7bdb8;
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(20px);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.html-body .button-back-to-top.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.html-body .button-back-to-top:hover {
+  transform: translateY(-4px);
+  background-color: #ffffff;
+  border-color: #b80014;
+  box-shadow: 0px 8px 20px rgba(184, 0, 20, 0.2);
+}
+
+.html-body .button-back-to-top-2 {
+  right: 0;
+  bottom: 0;
+  background-color: #ffffff01;
+  box-shadow: 0px 4px 6px -4px #0000001a, 0px 10px 15px -3px #0000001a;
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  border-radius: 12px;
+  pointer-events: none;
+}
+
+.html-body .container {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.html-body .icon {
+  position: relative;
+  width: 16px;
+  height: 16px;
+}
+
+/* Header Component */
+.html-body .shared-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 32px;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: rgba(250, 249, 249, 0.88);
+  border-bottom: 1px solid #e7bdb8;
+  backdrop-filter: blur(12px) brightness(100%);
+  -webkit-backdrop-filter: blur(12px) brightness(100%);
+  transition: all 0.3s ease;
+  box-sizing: border-box;
+}
+
+.html-body .header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.html-body .logo-link {
+  display: flex;
+  align-items: center;
+  transition: transform 0.2s ease;
+}
+
+.html-body .logo-link:hover {
+  transform: scale(1.02);
+}
+
+.html-body .delixi-khoakim {
+  width: 164px;
+  height: 40px;
+  position: relative;
+  aspect-ratio: 4.11;
+  object-fit: cover;
+}
+
+.html-body .container-2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 32px;
+  position: relative;
+}
+
+.html-body .container-3 {
+  display: inline-flex;
+  align-items: center;
+  gap: 36px;
+  position: relative;
+}
+
+.html-body .div-2 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.html-body .text-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "IBM Plex Sans-Medium", Helvetica, sans-serif;
+  font-weight: 500;
+  color: #1a1c1c;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 21px;
+  white-space: nowrap;
+  transition: color 0.2s ease;
+  text-decoration: none;
+}
+
+.html-body .nav-link:hover {
+  color: #b80014;
+}
+
+/* Header Button */
+.html-body .button {
+  all: unset;
+  box-sizing: border-box;
+  display: inline-flex;
+  min-width: 120px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 20px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #b80014;
+  border-radius: 6px;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0px 4px 12px rgba(184, 0, 20, 0.25);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.html-body .button:hover {
+  background-color: #93000d;
+  transform: translateY(-2px);
+  box-shadow: 0px 6px 16px rgba(184, 0, 20, 0.35);
+}
+
+.html-body .button:active {
+  transform: translateY(0);
+}
+
+.html-body .text {
+  justify-content: center;
+  margin-top: -1px;
+  font-family: "IBM Plex Sans-Bold", Helvetica, sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.21px;
+  line-height: 21px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  white-space: nowrap;
+}
+
+/* Main Container Flow */
+.html-body .main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  z-index: 0;
+}
+
+/* ==========================================================================
+   1. HERO SECTION
+   ========================================================================== */
+.html-body .hero-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 32px 96px;
+  position: relative;
+  box-sizing: border-box;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(226, 27, 34, 0.05) 0%,
+    rgba(226, 27, 34, 0) 70%
+  );
+}
+
+.html-body .container-7 {
+  display: flex;
+  max-width: 1200px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 48px;
+  position: relative;
+  width: 100%;
+}
+
+.html-body .container-8 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  position: relative;
+  flex: 1;
+  max-width: 580px;
+}
+
+.html-body .container-9 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.html-body .background {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 4px 12px;
+  position: relative;
+  background-color: #ffdad6;
+  border-radius: 12px;
+}
+
+.html-body .GI-i-PH-p-CHO-i-l {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  margin: 0;
+  font-family: "IBM Plex Sans-Bold", Helvetica, sans-serif;
+  font-weight: 700;
+  color: #93000d;
+  font-size: 12px;
+  letter-spacing: 0.6px;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.html-body .qu-n-l-n-h-ng-th-ng {
+  position: relative;
+  align-self: stretch;
+  margin: 0;
+  font-family: "IBM Plex Sans-Bold", Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 54px;
+  letter-spacing: -1.5px;
+  line-height: 1.15;
+}
+
+.html-body .span {
+  color: #1a1c1c;
+}
+
+.html-body .text-wrapper-5 {
+  color: #b80014;
+}
+
+.html-body .gi-i-ph-p-b-c-t-ch-n-wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  align-items: flex-start;
+  position: relative;
+  width: 100%;
+}
+
+.html-body .gi-i-ph-p-b-c-t-ch-n {
+  position: relative;
+  align-self: stretch;
+  margin: 0;
+  font-family: "IBM Plex Sans-Regular", Helvetica, sans-serif;
+  font-weight: 400;
+  color: #5d3f3c;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.html-body .container-10 {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.html-body .link {
+  min-width: 180px;
+  height: 54px;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 28px;
+  background-color: #b80014;
+  border-radius: 6px;
+  display: inline-flex;
+  position: relative;
+  cursor: pointer;
+  box-shadow: 0px 6px 18px rgba(184, 0, 20, 0.28);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  text-decoration: none;
+}
+
+.html-body .link:hover {
+  background-color: #93000d;
+  transform: translateY(-2px);
+  box-shadow: 0px 10px 24px rgba(184, 0, 20, 0.38);
+}
+
+.html-body .div-4 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #ffffff01;
+  border-radius: 6px;
+  pointer-events: none;
+}
+
+.html-body .text-2 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  font-family: "IBM Plex Sans-Bold", Helvetica, sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.html-body .div-wrapper {
+  all: unset;
+  box-sizing: border-box;
+  min-width: 180px;
+  padding: 0px 28px;
+  border: 2px solid #e7bdb8;
+  display: inline-flex;
+  height: 54px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+
+.html-body .div-wrapper:hover {
+  border-color: #b80014;
+  background-color: rgba(184, 0, 20, 0.04);
+  transform: translateY(-2px);
+}
+
+.html-body .text-wrapper-6 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  font-family: "IBM Plex Sans-Bold", Helvetica, sans-serif;
+  font-weight: 700;
+  color: #1a1c1c;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.html-body .horizontal-border {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding-top: 16px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  border-top: 1px solid #e7bdb8;
+}
+
+.html-body .text-wrapper-7 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  font-family: "IBM Plex Sans-Medium", Helvetica, sans-serif;
+  font-weight: 500;
+  color: #5d3f3c;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin: 0;
+}
+
+/* Hero Showcase Component with Dashboard Image */
+.html-body .container-11 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex: 1;
+  max-width: 560px;
+  width: 100%;
+}
+
+.html-body .overlay-blur {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(184, 0, 20, 0.12);
+  border-radius: 20px;
+  filter: blur(60px);
+}
+
+.html-body .background-shadow {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0px 25px 50px -12px rgba(0, 0, 0, 0.22);
+  border: 1px solid rgba(231, 189, 184, 0.5);
+  background-color: #ffffff;
+}
+
+.html-body .dashboard-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.html-body .overlay-border {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 18px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  z-index: 5;
+  background-color: rgba(255, 255, 255, 0.94);
+  border-radius: 12px;
+  border: 1px solid rgba(231, 189, 184, 0.6);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0px 10px 25px -5px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.html-body .hero-badge-float {
+  animation: pulseGlow 4s ease-in-out infinite;
+}
+
+.html-body .overlay-shadow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #ffffff01;
+  border-radius: 12px;
+  pointer-events: none;
+}
+
+.html-body .text-3 {
+  font-family: "IBM Plex Sans-Bold", Helvetica, sans-serif;
+  font-weight: 700;
+  color: #926e6b;
+  font-size: 11px;
+  letter-spacing: 0.5px;
+  line-height: 15px;
+}
+
+.html-body .text-4 {
+  font-family: "IBM Plex Sans-Bold", Helvetica, sans-serif;
+  font-weight: 700;
+  color: #1a1c1c;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin: 0;
+}
+
+/* ==========================================================================
+   2. FEATURES SECTION
+   ========================================================================== */
+.html-body .features-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 96px 32px;
+  position: relative;
+  box-sizing: border-box;
+  background-color: #f4f3f3;
+}
+
+.html-body .container-4 {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  align-items: center;
+  gap: 64px;
+  position: relative;
+  width: 100%;
+}
+
+.html-body .paragraph {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  text-align: center;
+}
+
+.html-body .p {
+  position: relative;
+  display: block;
+  margin: 0;
+  font-family: "IBM Plex Sans-Bold", Helvetica, sans-serif;
+  font-weight: 700;
+  color: #1a1c1c;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: -0.8px;
+  line-height: 1.25;
+}
+
+.html-body .text-wrapper-2 {
+  position: relative;
+  margin: 0;
+  font-family: "IBM Plex Sans-Regular", Helvetica, sans-serif;
+  font-weight: 400;
+  color: #5d3f3c;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.html-body .container-5 {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  gap: 32px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.html-body .div-3,
+.html-body .tracking-feature {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  max-width: 380px;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 36px 32px;
+  position: relative;
+  background-color: #faf9f9;
+  border-radius: 16px;
+  border: 1px solid #e7bdb8;
+  box-sizing: border-box;
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.03);
+}
+
+.html-body .feature-card:hover {
+  transform: translateY(-8px);
+  border-color: #b80014;
+  box-shadow: 0px 16px 32px rgba(184, 0, 20, 0.12);
+  background-color: #ffffff;
+}
+
+.html-body .overlay {
+  display: flex;
+  width: 56px;
+  height: 56px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: rgba(184, 0, 20, 0.1);
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.html-body .feature-card:hover .overlay {
+  background-color: #b80014;
+  transform: scale(1.05);
+}
+
+.html-body .feature-card:hover .overlay stroke,
+.html-body .feature-card:hover .overlay svg {
+  stroke: #ffffff;
+}
+
+.html-body .container-6 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.html-body .text-wrapper-3 {
+  position: relative;
+  margin: 0;
+  font-family: "IBM Plex Sans-Bold", Helvetica, sans-serif;
+  font-weight: 700;
+  color: #1a1c1c;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.html-body .text-wrapper-4 {
+  position: relative;
+  margin: 0;
+  font-family: "IBM Plex Sans-Regular", Helvetica, sans-serif;
+  font-weight: 400;
+  color: #5d3f3c;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+/* ==========================================================================
+   3. APP SHOWCASE SECTION
+   ========================================================================== */
+.html-body .section-app-showcase {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 96px 32px;
+  position: relative;
+  box-sizing: border-box;
+  background-color: #faf9f9;
+}
+
+.html-body .heading {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.html-body .text-5 {
+  position: relative;
+  margin: 0;
+  font-family: "IBM Plex Sans-Bold", Helvetica, sans-serif;
+  font-weight: 700;
+  color: #1a1c1c;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 40px;
+}
+
+.html-body .container-12 {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  max-width: 1200px;
+  height: 633px;
+  margin: 0 auto;
+}
+
+/* Showcase Phones Floating & Positioning */
+.html-body .showcase-phone {
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), z-index 0.3s ease;
+}
+
+.html-body .showcase-phone:hover {
+  z-index: 20 !important;
+}
+
+.html-body .phone-dashboard {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  align-items: flex-start;
+  position: absolute;
+  top: calc(50.00% - 296px);
+  left: calc(50.00% - 460px);
+  transform: rotate(-3deg);
+  z-index: 2;
+  animation: floatDashboard 7s ease-in-out infinite;
+}
+
+.html-body .phone-dashboard:hover {
+  transform: rotate(-1deg) scale(1.04) translateY(-10px);
+}
+
+.html-body .phone-OCR-scan {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  align-items: flex-start;
+  position: absolute;
+  top: calc(50.00% - 317px);
+  left: calc(50.00% - 150px);
+  z-index: 3;
+  animation: floatOCR 7s ease-in-out 1.5s infinite;
+}
+
+.html-body .phone-OCR-scan:hover {
+  transform: scale(1.05) translateY(-12px);
+}
+
+.html-body .phone-finance {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  align-items: flex-start;
+  position: absolute;
+  top: calc(50.00% - 296px);
+  left: calc(50.00% + 180px);
+  transform: rotate(3deg);
+  z-index: 1;
+  animation: floatFinance 7s ease-in-out 3s infinite;
+}
+
+.html-body .phone-finance:hover {
+  transform: rotate(1deg) scale(1.04) translateY(-10px);
+}
+
+.html-body .background-border {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  background-color: #1a1c1c;
+  border-radius: 40px;
+  overflow: hidden;
+  border: 8px solid #1a1c1c;
+  box-shadow: 0px 30px 60px -30px rgba(0, 0, 0, 0.3), 0px 50px 100px -20px rgba(0, 0, 0, 0.25);
+  aspect-ratio: 0.47;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.html-body .div-5 {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 575px;
+  background-image: url(./img/showcase1.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.html-body .div-6 {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 617px;
+  background-image: url(./img/showcase2.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.html-body .div-7 {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 575px;
+  background-image: url(./img/showcase3.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.html-body .background-border-2 {
+  display: inline-flex;
+  flex-direction: column;
+  max-width: 200px;
+  align-items: flex-start;
+  gap: 4.5px;
+  padding: 16px;
+  position: absolute;
+  left: -24px;
+  bottom: -24px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  border: 1px solid #e7bdb8;
+  box-shadow: 0px 12px 24px -6px rgba(0, 0, 0, 0.12);
+}
+
+.html-body .overlay-shadow-2 {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 12px;
+  position: absolute;
+  pointer-events: none;
+}
+
+.html-body .text-wrapper-8 {
+  font-family: "IBM Plex Sans-Bold", Helvetica, sans-serif;
+  font-weight: 700;
+  color: #b80014;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 16px;
+}
+
+.html-body .paragraph-2,
+.html-body .paragraph-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+
+.html-body .text-wrapper-9,
+.html-body .text-wrapper-10 {
+  margin: 0;
+  font-family: "IBM Plex Sans-Medium", Helvetica, sans-serif;
+  font-weight: 500;
+  color: #1a1c1c;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: 18px;
+}
+
+.html-body .background-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px 24px;
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #b80014;
+  border-radius: 12px;
+  box-shadow: 0px 8px 18px rgba(184, 0, 20, 0.35);
+  white-space: nowrap;
+}
+
+.html-body .overlay-shadow-3 {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 12px;
+  position: absolute;
+  pointer-events: none;
+}
+
+.html-body .text-6 {
+  margin: 0;
+  font-family: "IBM Plex Sans-Bold", Helvetica, sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.html-body .background-border-3 {
+  display: inline-flex;
+  max-width: 200px;
+  gap: 4.5px;
+  padding: 16px;
+  position: absolute;
+  right: -30px;
+  bottom: -20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  border: 1px solid #e7bdb8;
+  flex-direction: column;
+  align-items: flex-start;
+  box-shadow: 0px 12px 24px -6px rgba(0, 0, 0, 0.12);
+}
+
+.html-body .overlay-shadow-4 {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 12px;
+  position: absolute;
+  pointer-events: none;
+}
+
+/* ==========================================================================
+   4. TRIAL / LEAD REGISTRATION SECTION
+   ========================================================================== */
+.html-body .section-trial {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 96px 32px;
+  position: relative;
+  box-sizing: border-box;
+  background-color: #e9e8e8;
+  overflow: hidden;
+}
+
+.html-body .container-16 {
+  display: flex;
+  max-width: 1000px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 64px;
+  position: relative;
+  width: 100%;
+}
+
+.html-body .container-17 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  position: relative;
+  flex: 1;
+}
+
+.html-body .s-n-s-ng-n-ng-t-m-i {
+  position: relative;
+  margin: 0;
+  font-family: "IBM Plex Sans-Bold", Helvetica, sans-serif;
+  font-weight: 700;
+  color: #1a1c1c;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: 44px;
+}
+
+.html-body .text-wrapper-13 {
+  position: relative;
+  margin: 0;
+  font-family: "IBM Plex Sans-Regular", Helvetica, sans-serif;
+  font-weight: 400;
+  color: #5d3f3c;
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: 26px;
+}
+
+.html-body .container-18 {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.html-body .container-wrapper {
+  display: flex;
+  width: 34px;
+  height: 34px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: rgba(184, 0, 20, 0.1);
+  border-radius: 10px;
+}
+
+.html-body .text-8 {
+  margin: 0;
+  font-family: "IBM Plex Sans-Medium", Helvetica, sans-serif;
+  font-weight: 500;
+  color: #1a1c1c;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.html-body .background-border-4 {
+  display: flex;
+  padding: 40px;
+  position: relative;
+  flex: 1;
+  max-width: 460px;
+  background-color: #faf9f9;
+  border-radius: 16px;
+  border: 1px solid #e7bdb8;
+  box-shadow: 0px 12px 32px rgba(0, 0, 0, 0.08);
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.html-body .overlay-shadow-5 {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 16px;
+  position: absolute;
+  pointer-events: none;
+}
+
+.html-body .form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.html-body .container-19 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.html-body .text-wrapper-14 {
+  position: relative;
+  font-family: "IBM Plex Sans-Bold", Helvetica, sans-serif;
+  font-weight: 700;
+  color: #5d3f3c;
+  font-size: 13px;
+  letter-spacing: 0.7px;
+  line-height: 18px;
+}
+
+.html-body .input-container,
+.html-body .options-container {
+  width: 100%;
+}
+
+.html-body .custom-input,
+.html-body .custom-select {
+  width: 100%;
+  height: 52px;
+  padding: 0 16px;
+  background-color: #f4f3f3;
+  border: 1px solid #e7bdb8;
+  border-radius: 6px;
+  font-family: "IBM Plex Sans-Regular", Helvetica, sans-serif;
+  font-size: 15px;
+  color: #1a1c1c;
+  outline: none;
+  transition: all 0.25s ease;
+  box-sizing: border-box;
+}
+
+.html-body .custom-input::placeholder {
+  color: #8c8f94;
+}
+
+.html-body .custom-input:focus,
+.html-body .custom-select:focus {
+  background-color: #ffffff;
+  border-color: #b80014;
+  box-shadow: 0 0 0 3px rgba(184, 0, 20, 0.15);
+}
+
+.html-body .custom-select {
+  appearance: none;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="%235d3f3c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>');
+  background-repeat: no-repeat;
+  background-position: right 16px center;
+  cursor: pointer;
+}
+
+.html-body .button-margin {
+  display: flex;
+  width: 100%;
+  padding-top: 10px;
+}
+
+.html-body .button-2 {
+  all: unset;
+  box-sizing: border-box;
+  width: 100%;
+  height: 54px;
+  background-color: #b80014;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+  box-shadow: 0px 6px 18px rgba(184, 0, 20, 0.3);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.html-body .button-2:hover {
+  background-color: #93000d;
+  transform: translateY(-2px);
+  box-shadow: 0px 10px 24px rgba(184, 0, 20, 0.4);
+}
+
+.html-body .button-2:active {
+  transform: translateY(0);
+}
+
+/* ==========================================================================
+   5. TRUST / FOOTER SECTION
+   ========================================================================== */
+.html-body .section-trust {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 48px 32px;
+  position: relative;
+  box-sizing: border-box;
+  background-color: #faf9f9;
+  border-top: 1px solid #e7bdb8;
+}
+
+.html-body .container-13 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.html-body .delixi-khoakim-2 {
+  width: 260px;
+  height: 63px;
+  position: relative;
+  aspect-ratio: 4.11;
+  object-fit: cover;
+}
+
+.html-body .heading-2 {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  position: relative;
+}
+
+.html-body .text-wrapper-11 {
+  font-family: "IBM Plex Sans-Bold", Helvetica, sans-serif;
+  font-weight: 700;
+  color: #1a1c1c;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 1.5px;
+}
+
+.html-body .container-15 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.html-body .text-7 {
+  font-family: "IBM Plex Sans-Bold", Helvetica, sans-serif;
+  font-weight: 700;
+  color: #b80014;
+  font-size: 18px;
+}
+
+.html-body .text-wrapper-12 {
+  margin: 0;
+  font-family: "IBM Plex Sans-Regular", Helvetica, sans-serif;
+  font-weight: 400;
+  color: #5d3f3c;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* ==========================================================================
+   ANIMATIONS & KEYFRAMES
+   ========================================================================== */
+
+/* Scroll Reveal Animations */
+.reveal-on-scroll {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+}
+
+.reveal-on-scroll.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.reveal-card {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1), transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+}
+
+.reveal-on-scroll.is-visible .reveal-card {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Stagger Delays */
+.delay-1 { transition-delay: 0.15s; }
+.delay-2 { transition-delay: 0.3s; }
+.delay-3 { transition-delay: 0.45s; }
+
+/* Continuous Floating Animations for Showcase Phones */
+@keyframes floatDashboard {
+  0%, 100% {
+    transform: rotate(-3deg) translateY(0px);
+  }
+  50% {
+    transform: rotate(-3deg) translateY(-12px);
+  }
+}
+
+@keyframes floatOCR {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-14px);
+  }
+}
+
+@keyframes floatFinance {
+  0%, 100% {
+    transform: rotate(3deg) translateY(0px);
+  }
+  50% {
+    transform: rotate(3deg) translateY(-12px);
+  }
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    transform: translateY(0px);
+    box-shadow: 0px 10px 25px -5px rgba(0, 0, 0, 0.15);
+  }
+  50% {
+    transform: translateY(-4px);
+    box-shadow: 0px 14px 28px -4px rgba(184, 0, 20, 0.25);
+  }
+}
+
+/* Toast Notification Styles */
+.toast-notification {
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%) translateY(40px);
+  z-index: 9999;
+  background-color: #1a1c1c;
+  color: #ffffff;
+  padding: 14px 24px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(231, 189, 184, 0.3);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.toast-notification.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(-50%) translateY(0);
+}
+
+.toast-content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: "IBM Plex Sans-Medium", Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+/* ==========================================================================
+   RESPONSIVE MEDIA QUERIES (DESKTOP, TABLET, MOBILE)
+   ========================================================================== */
+
+/* 1. Laptops & Medium Desktops (992px to 1199px) */
+@media (max-width: 1199px) {
+  .html-body .container-7 {
+    gap: 32px;
+  }
+  
+  .html-body .qu-n-l-n-h-ng-th-ng {
+    font-size: 46px;
+  }
+
+  .html-body .container-12 {
+    height: 560px;
+  }
+
+  .html-body .phone-dashboard {
+    left: calc(50% - 390px);
+    width: 250px;
+  }
+
+  .html-body .phone-OCR-scan {
+    left: calc(50% - 135px);
+    width: 270px;
+  }
+
+  .html-body .phone-finance {
+    left: calc(50% + 140px);
+    width: 250px;
+  }
+}
+
+/* 2. Tablets & Small Laptops (768px to 991px) */
+@media (max-width: 991px) {
+  .html-body .shared-header {
+    padding: 12px 20px;
+  }
+
+  .html-body .container-7 {
+    flex-direction: column;
+    text-align: center;
+    gap: 48px;
+  }
+  
+  .html-body .container-8 {
+    align-items: center;
+    max-width: 100%;
+  }
+
+  .html-body .container-9 {
+    align-items: center;
+  }
+
+  .html-body .gi-i-ph-p-b-c-t-ch-n-wrapper {
+    align-items: center;
+  }
+
+  .html-body .qu-n-l-n-h-ng-th-ng {
+    font-size: 40px;
+  }
+
+  .html-body .container-10 {
+    justify-content: center;
+  }
+
+  .html-body .horizontal-border {
+    justify-content: center;
+  }
+
+  .html-body .container-11 {
+    max-width: 100%;
+  }
+
+  .html-body .background-shadow {
+    max-width: 520px;
+  }
+
+  .html-body .container-5 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .html-body .div-3,
+  .html-body .tracking-feature {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .html-body .container-16 {
+    flex-direction: column;
+    gap: 48px;
+  }
+
+  .html-body .container-17 {
+    align-items: center;
+    text-align: center;
+  }
+
+  .html-body .container-18 {
+    justify-content: center;
+  }
+
+  .html-body .background-border-4 {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .html-body .container-12 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    gap: 48px;
+  }
+
+  .html-body .phone-dashboard,
+  .html-body .phone-OCR-scan,
+  .html-body .phone-finance {
+    position: relative;
+    top: auto !important;
+    left: auto !important;
+    transform: none !important;
+    animation: none !important;
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .html-body .background-border-2,
+  .html-body .background-border-3 {
+    display: none;
+  }
+
+  .html-body .background-2 {
+    top: -16px;
+  }
+}
+
+/* 3. Mobile Phones (< 768px) */
+@media (max-width: 767px) {
+  .html-body .shared-header {
+    padding: 12px 16px;
+  }
+
+  .html-body .header-inner {
+    gap: 12px;
+  }
+
+  .html-body .delixi-khoakim {
+    width: 130px;
+    height: 32px;
+  }
+
+  .html-body .container-2 {
+    gap: 16px;
+  }
+
+  .html-body .container-3 {
+    gap: 16px;
+  }
+
+  .html-body .text-wrapper {
+    font-size: 13px;
+  }
+
+  .html-body .button {
+    min-width: 100px;
+    height: 36px;
+    padding: 0 12px;
+  }
+
+  .html-body .text {
+    font-size: 13px;
+  }
+
+  .html-body .hero-section {
+    padding: 48px 16px 64px;
+  }
+
+  .html-body .qu-n-l-n-h-ng-th-ng {
+    font-size: 32px;
+    line-height: 1.2;
+  }
+
+  .html-body .gi-i-ph-p-b-c-t-ch-n {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .html-body .container-10 {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .html-body .link,
+  .html-body .div-wrapper {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .html-body .features-section,
+  .html-body .section-app-showcase,
+  .html-body .section-trial {
+    padding: 64px 16px;
+  }
+
+  .html-body .p,
+  .html-body .text-5,
+  .html-body .s-n-s-ng-n-ng-t-m-i {
+    font-size: 26px;
+    line-height: 1.3;
+  }
+
+  .html-body .background-border-4 {
+    padding: 24px 20px;
+  }
+
+  .html-body .heading-2 {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .html-body .text-wrapper-11 {
+    font-size: 13px;
+  }
+
+  .html-body .button-back-to-top {
+    right: 16px;
+    bottom: 16px;
+    width: 40px;
+    height: 40px;
+  }
+}
+
+/* 4. Small Mobile Screen (< 420px) */
+@media (max-width: 420px) {
+  .html-body .container-3 {
+    gap: 10px;
+  }
+
+  .html-body .text-wrapper {
+    font-size: 12px;
+  }
+
+  .html-body .qu-n-l-n-h-ng-th-ng {
+    font-size: 28px;
+  }
+
+  .html-body .overlay-border {
+    padding: 10px 12px;
+    bottom: 12px;
+    right: 12px;
+  }
+
+  .html-body .text-4 {
+    font-size: 12px;
+  }
+}
