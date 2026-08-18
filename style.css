@@ -1883,7 +1883,7 @@ body {
   }
 
   .html-body .header-inner {
-    gap: 12px;
+    justify-content: center;
   }
 
   .html-body .delixi-khoakim {
@@ -1892,7 +1892,7 @@ body {
   }
 
   .html-body .container-2 {
-    gap: 16px;
+    display: none;
   }
 
   .html-body .container-3 {
