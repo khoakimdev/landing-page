@@ -79,6 +79,74 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
+  // 5. Delete Account Form Handler
+  const deleteForm = document.getElementById('delete-account-form');
+  if (deleteForm) {
+    deleteForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const phoneInput = deleteForm.querySelector('#del-phone');
+      const confirmCheck = deleteForm.querySelector('#del-confirm');
+      const submitBtn = deleteForm.querySelector('.delete-submit-btn');
+
+      if (!phoneInput || !phoneInput.value.trim()) {
+        showToast('Vui lòng nhập số điện thoại đăng ký tài khoản.');
+        return;
+      }
+
+      if (confirmCheck && !confirmCheck.checked) {
+        showToast('Vui lòng xác nhận đồng ý với các điều khoản xóa dữ liệu.');
+        return;
+      }
+
+      if (submitBtn) {
+        submitBtn.style.transform = 'scale(0.97)';
+        submitBtn.disabled = true;
+        submitBtn.innerHTML = '<span>Đang gửi yêu cầu...</span>';
+      }
+
+      setTimeout(() => {
+        if (submitBtn) {
+          submitBtn.style.transform = '';
+          submitBtn.disabled = false;
+          submitBtn.innerHTML = `
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="20 6 9 17 4 12" />
+            </svg>
+            <span>Đã gửi yêu cầu thành công</span>
+          `;
+        }
+        deleteForm.reset();
+        showToast('Yêu cầu xóa tài khoản đã được ghi nhận! Khoa Kim sẽ liên hệ xác minh và xử lý trong 7 - 14 ngày làm việc.');
+      }, 700);
+    });
+  }
+
+  // 6. Policy Table of Contents ScrollSpy
+  const sidebarLinks = document.querySelectorAll('.policy-sidebar .sidebar-link');
+  const policyCards = document.querySelectorAll('.policy-card');
+
+  if (sidebarLinks.length > 0 && policyCards.length > 0) {
+    const observerSections = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const id = entry.target.getAttribute('id');
+          sidebarLinks.forEach(link => {
+            if (link.getAttribute('href') === `#${id}`) {
+              link.classList.add('active');
+            } else {
+              link.classList.remove('active');
+            }
+          });
+        }
+      });
+    }, {
+      rootMargin: '-100px 0px -65% 0px',
+      threshold: 0
+    });
+
+    policyCards.forEach(card => observerSections.observe(card));
+  }
+
   // Helper toast notification
   function showToast(message) {
     let existingToast = document.querySelector('.toast-notification');
@@ -101,6 +169,7 @@ document.addEventListener('DOMContentLoaded', () => {
     setTimeout(() => {
       toast.classList.remove('active');
       setTimeout(() => toast.remove(), 400);
-    }, 4000);
+    }, 4500);
   }
 });
+
