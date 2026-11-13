@@ -171,5 +171,88 @@ document.addEventListener('DOMContentLoaded', () => {
       setTimeout(() => toast.remove(), 400);
     }, 4500);
   }
+
+  // 7. Hero Showcase Slider (Dashboard <-> App Video)
+  const heroSlider = document.querySelector('.hero-slider-container');
+  if (heroSlider) {
+    const tabBtns = heroSlider.querySelectorAll('.hero-tab-btn');
+    const slides = heroSlider.querySelectorAll('.hero-slide');
+    const dots = heroSlider.querySelectorAll('.hero-dot');
+    const prevBtn = heroSlider.querySelector('.hero-slider-arrow.prev');
+    const nextBtn = heroSlider.querySelector('.hero-slider-arrow.next');
+    const video = heroSlider.querySelector('#hero-app-video');
+
+    const slideList = ['video', 'dashboard'];
+    let currentIndex = 0;
+
+    function goToSlide(index) {
+      if (index < 0) index = slideList.length - 1;
+      if (index >= slideList.length) index = 0;
+      currentIndex = index;
+      const targetName = slideList[currentIndex];
+
+      // Update tabs
+      tabBtns.forEach(btn => {
+        if (btn.getAttribute('data-slide') === targetName) {
+          btn.classList.add('active');
+        } else {
+          btn.classList.remove('active');
+        }
+      });
+
+      // Update slides
+      slides.forEach(slide => {
+        if (slide.id === `hero-slide-${targetName}`) {
+          slide.classList.add('active');
+        } else {
+          slide.classList.remove('active');
+        }
+      });
+
+      // Update dots
+      dots.forEach(dot => {
+        if (dot.getAttribute('data-slide') === targetName) {
+          dot.classList.add('active');
+        } else {
+          dot.classList.remove('active');
+        }
+      });
+
+      // Control video playback on slide switch
+      if (video) {
+        if (targetName === 'video') {
+          video.play().catch(() => {});
+        } else {
+          video.pause();
+        }
+      }
+    }
+
+    tabBtns.forEach((btn, idx) => {
+      btn.addEventListener('click', () => goToSlide(idx));
+    });
+
+    dots.forEach((dot, idx) => {
+      dot.addEventListener('click', () => goToSlide(idx));
+    });
+
+    if (prevBtn) {
+      prevBtn.addEventListener('click', () => goToSlide(currentIndex - 1));
+    }
+
+    if (nextBtn) {
+      nextBtn.addEventListener('click', () => goToSlide(currentIndex + 1));
+    }
+
+    // Tự động phát video sau 3 giây (trên trình duyệt video muted autoplay được hỗ trợ mượt mà)
+    if (video) {
+      setTimeout(() => {
+        if (currentIndex === 0) {
+          video.play().catch(() => {});
+        }
+      }, 3000);
+    }
+  }
+
 });
 

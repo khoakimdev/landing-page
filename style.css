@@ -170,12 +170,12 @@ body {
   align-items: center;
   width: fit-content;
   margin-top: -1px;
-  font-family: "IBM Plex Sans-Medium", Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 600;
   color: #1a1c1c;
-  font-size: 25px;
+  font-size: 13.6px;
   letter-spacing: 0;
-  line-height: 33px;
+  line-height: 18px;
   white-space: nowrap;
   transition: color 0.2s ease;
   text-decoration: none;
@@ -218,13 +218,13 @@ body {
 .html-body .text {
   justify-content: center;
   margin-top: -1px;
-  font-family: "IBM Plex Sans-Bold", Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   color: #ffffff;
-  font-size: 22px;
+  font-size: 12px;
   text-align: center;
   letter-spacing: 0.21px;
-  line-height: 33px;
+  line-height: 18px;
   position: relative;
   display: flex;
   align-items: center;
@@ -305,12 +305,12 @@ body {
   align-items: center;
   width: fit-content;
   margin: 0;
-  font-family: "IBM Plex Sans-Bold", Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   color: #93000d;
-  font-size: 18px;
+  font-size: 9.8px;
   letter-spacing: 0.6px;
-  line-height: 25px;
+  line-height: 13.6px;
   white-space: nowrap;
 }
 
@@ -318,7 +318,7 @@ body {
   position: relative;
   margin: 0;
   font-weight: 700;
-  font-size: 75px;
+  font-size: 40.8px;
   letter-spacing: -1.5px;
   line-height: 1.15;
 }
@@ -344,12 +344,12 @@ body {
   position: relative;
   align-self: stretch;
   margin: 0;
-  font-family: "IBM Plex Sans-Regular", Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   color: #5d3f3c;
-  font-size: 29px;
+  font-size: 15.8px;
   letter-spacing: 0;
-  line-height: 44px;
+  line-height: 23.9px;
 }
 
 .html-body .container-10 {
@@ -400,13 +400,13 @@ body {
   align-items: center;
   justify-content: center;
   width: fit-content;
-  font-family: "IBM Plex Sans-Bold", Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   color: #ffffff;
-  font-size: 25px;
+  font-size: 13.6px;
   text-align: center;
   letter-spacing: 0;
-  line-height: 38px;
+  line-height: 20.6px;
   white-space: nowrap;
 }
 
@@ -439,13 +439,13 @@ body {
   align-items: center;
   justify-content: center;
   width: fit-content;
-  font-family: "IBM Plex Sans-Bold", Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   color: #1a1c1c;
-  font-size: 25px;
+  font-size: 13.6px;
   text-align: center;
   letter-spacing: 0;
-  line-height: 38px;
+  line-height: 20.6px;
   white-space: nowrap;
 }
 
@@ -465,12 +465,12 @@ body {
   display: flex;
   align-items: center;
   width: fit-content;
-  font-family: "IBM Plex Sans-Medium", Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   color: #5d3f3c;
-  font-size: 22px;
+  font-size: 12px;
   letter-spacing: 0;
-  line-height: 31px;
+  line-height: 16.8px;
   margin: 0;
 }
 
@@ -550,21 +550,21 @@ body {
 }
 
 .html-body .text-3 {
-  font-family: "IBM Plex Sans-Bold", Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   color: #926e6b;
-  font-size: 17px;
+  font-size: 9.2px;
   letter-spacing: 0.5px;
-  line-height: 23px;
+  line-height: 12.6px;
 }
 
 .html-body .text-4 {
-  font-family: "IBM Plex Sans-Bold", Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   color: #1a1c1c;
-  font-size: 22px;
+  font-size: 12px;
   letter-spacing: 0;
-  line-height: 31px;
+  line-height: 16.8px;
   margin: 0;
 }
 
@@ -608,10 +608,10 @@ body {
   position: relative;
   display: block;
   margin: 0;
-  font-family: "IBM Plex Sans-Bold", Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   color: #1a1c1c;
-  font-size: 56px;
+  font-size: 40px;
   text-align: center;
   letter-spacing: -0.8px;
   line-height: 1.25;
@@ -620,13 +620,13 @@ body {
 .html-body .text-wrapper-2 {
   position: relative;
   margin: 0;
-  font-family: "IBM Plex Sans-Regular", Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   color: #5d3f3c;
-  font-size: 25px;
+  font-size: 16px;
   text-align: center;
   letter-spacing: 0;
-  line-height: 38px;
+  line-height: 20.6px;
 }
 
 .html-body .container-5 {
@@ -699,23 +699,23 @@ body {
 .html-body .text-wrapper-3 {
   position: relative;
   margin: 0;
-  font-family: "IBM Plex Sans-Bold", Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   color: #1a1c1c;
-  font-size: 31px;
+  font-size: 20px;
   letter-spacing: 0;
-  line-height: 44px;
+  line-height: 23.9px;
 }
 
 .html-body .text-wrapper-4 {
   position: relative;
   margin: 0;
-  font-family: "IBM Plex Sans-Regular", Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   color: #5d3f3c;
-  font-size: 23px;
+  font-size: 16px;
   letter-spacing: 0;
-  line-height: 38px;
+  line-height: 20.6px;
 }
 
 /* ==========================================================================
@@ -745,13 +745,13 @@ body {
 .html-body .text-5 {
   position: relative;
   margin: 0;
-  font-family: "IBM Plex Sans-Bold", Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   color: #1a1c1c;
-  font-size: 56px;
+  font-size: 30.5px;
   text-align: center;
   letter-spacing: 0;
-  line-height: 62px;
+  line-height: 33.8px;
 }
 
 .html-body .container-12 {
@@ -895,12 +895,12 @@ body {
 }
 
 .html-body .text-wrapper-8 {
-  font-family: "IBM Plex Sans-Bold", Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   color: #b80014;
-  font-size: 18px;
+  font-size: 9.8px;
   letter-spacing: 0;
-  line-height: 25px;
+  line-height: 13.6px;
 }
 
 .html-body .paragraph-2,
@@ -914,12 +914,12 @@ body {
 .html-body .text-wrapper-9,
 .html-body .text-wrapper-10 {
   margin: 0;
-  font-family: "IBM Plex Sans-Medium", Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   color: #1a1c1c;
-  font-size: 21px;
+  font-size: 11.4px;
   letter-spacing: 0;
-  line-height: 29px;
+  line-height: 15.8px;
 }
 
 .html-body .background-2 {
@@ -949,12 +949,12 @@ body {
 
 .html-body .text-6 {
   margin: 0;
-  font-family: "IBM Plex Sans-Bold", Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   color: #ffffff;
-  font-size: 23px;
+  font-size: 12.6px;
   letter-spacing: 0;
-  line-height: 34px;
+  line-height: 18.5px;
 }
 
 .html-body .background-border-3 {
@@ -1023,8 +1023,8 @@ body {
   background: rgba(255, 255, 255, 0.82);
   box-shadow: 0 8px 30px rgba(184, 0, 20, 0.08);
   color: #b80014;
-  font-family: "IBM Plex Sans-Bold", Helvetica, sans-serif;
-  font-size: 21px;
+  font-family: "Roboto", sans-serif;
+  font-size: 11.4px;
   font-weight: 700;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -1042,7 +1042,7 @@ body {
 .html-body .app-intro-title {
   margin: 0;
   color: #1a1c1c;
-  font-family: "IBM Plex Sans-Bold", Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: clamp(46px, 4.8vw, 67px);
   font-weight: 700;
   line-height: 1.08;
@@ -1057,8 +1057,8 @@ body {
   max-width: 540px;
   margin: 0;
   color: #5d3f3c;
-  font-family: "IBM Plex Sans-Regular", Helvetica, sans-serif;
-  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16.3px;
   line-height: 1.1;
 }
 
@@ -1073,8 +1073,8 @@ body {
   align-items: center;
   gap: 10px;
   color: #272727;
-  font-family: "IBM Plex Sans-Medium", Helvetica, sans-serif;
-  font-size: 23px;
+  font-family: "Roboto", sans-serif;
+  font-size: 12.6px;
   font-weight: 500;
 }
 
@@ -1088,7 +1088,7 @@ body {
   border-radius: 50%;
   background: #b80014;
   color: #fff;
-  font-size: 21px;
+  font-size: 11.4px;
   box-shadow: 0 6px 14px rgba(184, 0, 20, 0.22);
 }
 
@@ -1142,14 +1142,14 @@ body {
 .html-body .app-store-badge span {
   display: flex;
   flex-direction: column;
-  font-family: "IBM Plex Sans-Medium", Helvetica, sans-serif;
-  font-size: 29px;
+  font-family: "Roboto", sans-serif;
+  font-size: 15.8px;
   line-height: 1.1;
 }
 
 .html-body .app-store-badge small {
   margin-bottom: 3px;
-  font-size: 14px;
+  font-size: 7.6px;
   letter-spacing: 0.06em;
 }
 
@@ -1226,7 +1226,7 @@ body {
   border-radius: 50%;
   background: #16a34a;
   color: #fff;
-  font-family: Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
 }
 
@@ -1234,15 +1234,15 @@ body {
   display: flex;
   flex-direction: column;
   color: #1a1c1c;
-  font-family: "IBM Plex Sans-Bold", Helvetica, sans-serif;
-  font-size: 22px;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
   line-height: 1.25;
 }
 
 .html-body .app-intro-status small {
   margin-bottom: 2px;
   color: #16a34a;
-  font-size: 14px;
+  font-size: 7.6px;
   letter-spacing: 0.07em;
 }
 
@@ -1307,23 +1307,23 @@ body {
 .html-body .s-n-s-ng-n-ng-t-m-i {
   position: relative;
   margin: 0;
-  font-family: "IBM Plex Sans-Bold", Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   color: #1a1c1c;
-  font-size: 63px;
+  font-size: 30px;
   letter-spacing: 0;
-  line-height: 53px;
+  line-height: 28.8px;
 }
 
 .html-body .text-wrapper-13 {
   position: relative;
   margin: 0;
-  font-family: "IBM Plex Sans-Regular", Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   color: #5d3f3c;
-  font-size: 30px;
+  font-size: 16.3px;
   letter-spacing: 0;
-  line-height: 31px;
+  line-height: 16.8px;
 }
 
 .html-body .container-18 {
@@ -1348,12 +1348,12 @@ body {
 
 .html-body .text-8 {
   margin: 0;
-  font-family: "IBM Plex Sans-Medium", Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   color: #1a1c1c;
-  font-size: 25px;
+  font-size: 13.6px;
   letter-spacing: 0;
-  line-height: 38px;
+  line-height: 20.6px;
 }
 
 .html-body .background-border-4 {
@@ -1403,11 +1403,11 @@ body {
 
 .html-body .text-wrapper-14 {
   position: relative;
-  font-family: "IBM Plex Sans-Bold", Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   color: #5d3f3c;
   letter-spacing: 0.7px;
-  line-height: 29px;
+  line-height: 15.8px;
 }
 
 .html-body .input-container,
@@ -1423,8 +1423,8 @@ body {
   background-color: #f4f3f3;
   border: 1px solid #e7bdb8;
   border-radius: 6px;
-  font-family: "IBM Plex Sans-Regular", Helvetica, sans-serif;
-  font-size: 23px;
+  font-family: "Roboto", sans-serif;
+  font-size: 12.6px;
   color: #1a1c1c;
   outline: none;
   transition: all 0.25s ease;
@@ -1524,10 +1524,10 @@ body {
 }
 
 .html-body .text-wrapper-11 {
-  font-family: "IBM Plex Sans-Bold", Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   color: #1a1c1c;
-  font-size: 25px;
+  font-size: 13.6px;
   text-align: center;
   letter-spacing: 1.5px;
 }
@@ -1539,18 +1539,18 @@ body {
 }
 
 .html-body .text-7 {
-  font-family: "IBM Plex Sans-Bold", Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   color: #b80014;
-  font-size: 29px;
+  font-size: 15.8px;
 }
 
 .html-body .text-wrapper-12 {
   margin: 0;
-  font-family: "IBM Plex Sans-Regular", Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   color: #5d3f3c;
-  font-size: 22px;
+  font-size: 12px;
   text-align: center;
 }
 
@@ -1737,8 +1737,8 @@ body {
   display: flex;
   align-items: center;
   gap: 10px;
-  font-family: "IBM Plex Sans-Medium", Helvetica, sans-serif;
-  font-size: 22px;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
 }
 
 /* ==========================================================================
@@ -1752,7 +1752,7 @@ body {
   }
 
   .html-body .qu-n-l-n-h-ng-th-ng {
-    font-size: 72px;
+    font-size: 39.2px;
   }
 
   .html-body .container-12 {
@@ -1801,7 +1801,7 @@ body {
   }
 
   .html-body .qu-n-l-n-h-ng-th-ng {
-    font-size: 62px;
+    font-size: 33.8px;
   }
 
   .html-body .container-10 {
@@ -1933,7 +1933,7 @@ body {
   }
 
   .html-body .text-wrapper {
-    font-size: 21px;
+    font-size: 11.4px;
   }
 
   .html-body .button {
@@ -1943,7 +1943,7 @@ body {
   }
 
   .html-body .text {
-    font-size: 21px;
+    font-size: 11.4px;
   }
 
   .html-body .hero-section {
@@ -1951,13 +1951,13 @@ body {
   }
 
   .html-body .qu-n-l-n-h-ng-th-ng {
-    font-size: 49px;
+    font-size: 26.6px;
     line-height: 1.2;
   }
 
   .html-body .gi-i-ph-p-b-c-t-ch-n {
-    font-size: 25px;
-    line-height: 38px;
+    font-size: 13.6px;
+    line-height: 20.6px;
   }
 
   .html-body .container-10 {
@@ -1987,12 +1987,12 @@ body {
   }
 
   .html-body .app-intro-title {
-    font-size: 60px;
+    font-size: 32.6px;
     line-height: 1.14;
   }
 
   .html-body .app-intro-description {
-    font-size: 19px;
+    font-size: 10.3px;
     line-height: 1.6;
   }
 
@@ -2033,12 +2033,12 @@ body {
 
   .html-body .p,
   .html-body .text-5 {
-    font-size: 40px;
+    font-size: 21.8px;
     line-height: 1.3;
   }
 
   .html-body .s-n-s-ng-n-ng-t-m-i {
-    font-size: 31px;
+    font-size: 16.8px;
     line-height: 1.3;
   }
 
@@ -2053,7 +2053,7 @@ body {
   }
 
   .html-body .text-wrapper-11 {
-    font-size: 21px;
+    font-size: 11.4px;
   }
 
   .html-body .button-back-to-top {
@@ -2071,11 +2071,11 @@ body {
   }
 
   .html-body .text-wrapper {
-    font-size: 18px;
+    font-size: 9.8px;
   }
 
   .html-body .qu-n-l-n-h-ng-th-ng {
-    font-size: 44px;
+    font-size: 23.9px;
   }
 
   .html-body .overlay-border {
@@ -2085,16 +2085,16 @@ body {
   }
 
   .html-body .text-4 {
-    font-size: 18px;
+    font-size: 9.8px;
   }
 
   .html-body .app-intro-eyebrow {
     padding: 8px 11px;
-    font-size: 17px;
+    font-size: 9.2px;
   }
 
   .html-body .app-intro-title {
-    font-size: 35px;
+    font-size: 19px;
   }
 
   .html-body .app-store-list {
@@ -2162,15 +2162,15 @@ body {
   border: 1px solid rgba(184, 0, 20, 0.2);
   border-radius: 999px;
   color: #b80014;
-  font-size: 20px;
+  font-size: 10.9px;
   font-weight: 700;
   letter-spacing: 1px;
 }
 
 .html-body .subpage-title {
   margin: 0;
-  font-family: "IBM Plex Sans-Bold", Helvetica, sans-serif;
-  font-size: 52px;
+  font-family: "Roboto", sans-serif;
+  font-size: 28.3px;
   font-weight: 700;
   color: #1a1c1c;
   line-height: 1.15;
@@ -2179,7 +2179,7 @@ body {
 .html-body .subpage-subtitle {
   margin: 0;
   color: #5d3f3c;
-  font-size: 26px;
+  font-size: 14.2px;
   line-height: 1.35;
   max-width: 760px;
 }
@@ -2189,7 +2189,7 @@ body {
   align-items: center;
   gap: 12px;
   color: #737575;
-  font-size: 20px;
+  font-size: 10.9px;
 }
 
 /* Subpage Main Content Container */
@@ -2226,7 +2226,7 @@ body {
   display: flex;
   align-items: center;
   gap: 8px;
-  font-size: 24px;
+  font-size: 13px;
   font-weight: 700;
   color: #1a1c1c;
   margin-bottom: 16px;
@@ -2259,7 +2259,7 @@ body {
   padding: 6px 10px;
   border-radius: 8px;
   color: #5d3f3c;
-  font-size: 21px;
+  font-size: 11.4px;
   line-height: 1.25;
   text-decoration: none;
   transition: all 0.2s ease;
@@ -2282,7 +2282,7 @@ body {
   border-radius: 50%;
   background: rgba(184, 0, 20, 0.1);
   color: #b80014;
-  font-size: 16px;
+  font-size: 8.7px;
   font-weight: 700;
   flex-shrink: 0;
 }
@@ -2330,14 +2330,14 @@ body {
   background-color: #b80014;
   color: #ffffff;
   font-weight: 700;
-  font-size: 22px;
+  font-size: 12px;
   flex-shrink: 0;
 }
 
 .html-body .policy-card-title {
   margin: 0;
-  font-family: "IBM Plex Sans-Bold", Helvetica, sans-serif;
-  font-size: 34px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18.5px;
   font-weight: 700;
   color: #1a1c1c;
   line-height: 1.2;
@@ -2345,7 +2345,7 @@ body {
 
 .html-body .policy-card-body {
   color: #3f2f2d;
-  font-size: 25px;
+  font-size: 13.6px;
   line-height: 1.45;
 }
 
@@ -2412,7 +2412,7 @@ body {
   border: 1px solid #e7bdb8;
   border-radius: 10px;
   color: #1a1c1c;
-  font-size: 23px;
+  font-size: 12.6px;
   text-decoration: none;
   font-weight: 600;
   transition: all 0.2s ease;
@@ -2433,7 +2433,7 @@ body {
   padding: 12px 24px;
   background-color: #b80014;
   color: #ffffff !important;
-  font-size: 24px;
+  font-size: 13px;
   font-weight: 700;
   border-radius: 8px;
   text-decoration: none;
@@ -2486,8 +2486,8 @@ body {
 
 .html-body .alert-title {
   margin: 0 0 6px 0;
-  font-family: "IBM Plex Sans-Bold", Helvetica, sans-serif;
-  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16.3px;
   font-weight: 700;
   color: #b80014;
 }
@@ -2495,7 +2495,7 @@ body {
 .html-body .alert-desc {
   margin: 0;
   color: #5d3f3c;
-  font-size: 24px;
+  font-size: 13px;
   line-height: 1.35;
 }
 
@@ -2523,15 +2523,15 @@ body {
   gap: 8px;
   color: #b80014;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 10.9px;
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
 
 .html-body .option-title {
   margin: 0;
-  font-family: "IBM Plex Sans-Bold", Helvetica, sans-serif;
-  font-size: 32px;
+  font-family: "Roboto", sans-serif;
+  font-size: 17.4px;
   font-weight: 700;
   color: #1a1c1c;
   line-height: 1.2;
@@ -2550,7 +2550,7 @@ body {
   display: flex;
   align-items: flex-start;
   gap: 12px;
-  font-size: 23px;
+  font-size: 12.6px;
   color: #3f2f2d;
   line-height: 1.35;
 }
@@ -2565,7 +2565,7 @@ body {
   background-color: rgba(184, 0, 20, 0.12);
   color: #b80014;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 9.8px;
   flex-shrink: 0;
   margin-top: 3px;
 }
@@ -2587,8 +2587,8 @@ body {
 
 .html-body .form-title {
   margin: 0 0 8px 0;
-  font-family: "IBM Plex Sans-Bold", Helvetica, sans-serif;
-  font-size: 36px;
+  font-family: "Roboto", sans-serif;
+  font-size: 19.6px;
   font-weight: 700;
   color: #1a1c1c;
 }
@@ -2596,7 +2596,7 @@ body {
 .html-body .form-desc {
   margin: 0;
   color: #5d3f3c;
-  font-size: 24px;
+  font-size: 13px;
   line-height: 1.35;
 }
 
@@ -2607,7 +2607,7 @@ body {
   border: 1px solid #e7bdb8;
   border-radius: 8px;
   background-color: #faf9f9;
-  font-size: 24px;
+  font-size: 13px;
   color: #1a1c1c;
   resize: vertical;
   box-sizing: border-box;
@@ -2639,7 +2639,7 @@ body {
 }
 
 .html-body .checkbox-label {
-  font-size: 23px;
+  font-size: 12.6px;
   color: #5d3f3c;
   line-height: 1.35;
   user-select: none;
@@ -2652,9 +2652,9 @@ body {
   height: 56px;
   background-color: #b80014;
   color: #ffffff !important;
-  font-family: "IBM Plex Sans-Bold", Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
-  font-size: 25px;
+  font-size: 13.6px;
   border-radius: 8px;
   display: flex;
   align-items: center;
@@ -2692,14 +2692,14 @@ body {
 
 .html-body .support-title {
   margin: 0;
-  font-size: 26px;
+  font-size: 14.2px;
   font-weight: 700;
   color: #1a1c1c;
 }
 
 .html-body .support-desc {
   margin: 0;
-  font-size: 22px;
+  font-size: 12px;
   color: #737575;
 }
 
@@ -2719,7 +2719,7 @@ body {
 
 .html-body .footer-nav-item a {
   color: #5d3f3c;
-  font-size: 23px;
+  font-size: 12.6px;
   font-weight: 600;
   text-decoration: none;
   transition: color 0.2s ease;
@@ -2736,7 +2736,7 @@ body {
   flex-wrap: wrap;
   gap: 12px 24px;
   color: #737575;
-  font-size: 21px;
+  font-size: 11.4px;
 }
 
 .html-body .footer-contact-item {
@@ -2772,7 +2772,7 @@ body {
   }
 
   .html-body .subpage-title {
-    font-size: 40px;
+    font-size: 21.8px;
   }
 
   .html-body .policy-card {
@@ -2790,11 +2790,11 @@ body {
   }
 
   .html-body .subpage-title {
-    font-size: 34px;
+    font-size: 18.5px;
   }
 
   .html-body .subpage-subtitle {
-    font-size: 22px;
+    font-size: 12px;
   }
 
   .html-body .contact-badge-list {
@@ -2811,4 +2811,459 @@ body {
     flex-direction: column;
     align-items: flex-start;
   }
+}
+/* CTA Access Box */
+.html-body .cta-access-box {
+  display: flex;
+  flex-direction: column;
+  padding: 32px 28px;
+  position: relative;
+  flex: 1;
+  max-width: 480px;
+  background-color: #faf9f9;
+  border-radius: 20px;
+  border: 1px solid #e7bdb8;
+  box-shadow: 0px 16px 36px rgba(0, 0, 0, 0.08);
+  box-sizing: border-box;
+  gap: 22px;
+}
+
+.html-body .cta-web-block {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.html-body .cta-web-label {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 0.8px;
+  color: #926e6b;
+  text-transform: uppercase;
+}
+
+.html-body .cta-web-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 16px 20px;
+  background: linear-gradient(135deg, #b80014 0%, #93000d 100%);
+  border-radius: 12px;
+  color: #ffffff !important;
+  text-decoration: none;
+  box-shadow: 0px 6px 18px rgba(184, 0, 20, 0.3);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  box-sizing: border-box;
+}
+
+.html-body .cta-web-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 10px 24px rgba(184, 0, 20, 0.42);
+}
+
+.html-body .cta-web-btn-content {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.html-body .cta-web-icon-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+
+.html-body .cta-web-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  text-align: left;
+}
+
+.html-body .cta-web-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 1.2;
+}
+
+.html-body .cta-web-domain {
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  opacity: 0.9;
+  letter-spacing: 0.2px;
+}
+
+.html-body .cta-arrow-icon {
+  flex-shrink: 0;
+  transition: transform 0.2s ease;
+}
+
+.html-body .cta-web-btn:hover .cta-arrow-icon {
+  transform: translateX(4px);
+}
+
+.html-body .cta-divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+.html-body .cta-divider::before,
+.html-body .cta-divider::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #e7bdb8;
+}
+
+.html-body .cta-divider span {
+  padding: 0 12px;
+  font-family: "Roboto", sans-serif;
+  font-size: 10.5px;
+  font-weight: 700;
+  color: #926e6b;
+  letter-spacing: 0.8px;
+}
+
+.html-body .cta-download-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  width: 100%;
+}
+
+.html-body .cta-download-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid #e7bdb8;
+  border-radius: 14px;
+  padding: 14px;
+  gap: 12px;
+  transition: all 0.25s ease;
+}
+
+.html-body .cta-download-card:hover {
+  border-color: #b80014;
+  box-shadow: 0 6px 16px rgba(184, 0, 20, 0.12);
+  transform: translateY(-2px);
+}
+
+.html-body .cta-qr-wrapper {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  max-width: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.html-body .cta-qr-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.html-body .cta-store-badge {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  padding: 8px 10px;
+  background: #1a1c1c;
+  color: #ffffff !important;
+  border-radius: 8px;
+  text-decoration: none;
+  box-sizing: border-box;
+  justify-content: center;
+  transition: background-color 0.2s ease;
+}
+
+.html-body .cta-store-link:hover {
+  background: #b80014;
+}
+
+.html-body .cta-store-svg {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+}
+
+.html-body .cta-store-info {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  line-height: 1.1;
+}
+
+.html-body .cta-store-sub {
+  font-size: 8.5px;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  opacity: 0.8;
+}
+
+.html-body .cta-store-name {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+/* Hero Slider Styles */
+.html-body .hero-slider-container {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(180deg, #ffffff 0%, #f7f6f6 100%);
+  border-radius: 18px;
+  border: 1px solid rgba(231, 189, 184, 0.6);
+  box-shadow: 0px 20px 45px -10px rgba(0, 0, 0, 0.12);
+}
+
+.html-body .hero-slider-tabs {
+  position: absolute;
+  top: 14px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  padding: 4px;
+  border-radius: 30px;
+  gap: 4px;
+  z-index: 20;
+  border: 1px solid #e7bdb8;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.html-body .hero-tab-btn {
+  all: unset;
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 15px;
+  font-family: "Roboto", sans-serif;
+  font-size: 11.5px;
+  font-weight: 500;
+  color: #5d3f3c;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  white-space: nowrap;
+}
+
+.html-body .hero-tab-btn:hover {
+  color: #b80014;
+}
+
+.html-body .hero-tab-btn.active {
+  background-color: #b80014;
+  color: #ffffff;
+  font-weight: 700;
+  box-shadow: 0 2px 10px rgba(184, 0, 20, 0.35);
+}
+
+.html-body .hero-slider-track {
+  position: relative;
+  width: 100%;
+  min-height: 420px;
+  display: flex;
+}
+
+.html-body .hero-slide {
+  display: none;
+  width: 100%;
+  position: relative;
+  animation: fadeInSlide 0.35s ease-in-out forwards;
+}
+
+.html-body .hero-slide.active {
+  display: block;
+}
+
+@keyframes fadeInSlide {
+  from {
+    opacity: 0;
+    transform: scale(0.985);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.html-body .hero-slide-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+}
+
+.html-body .hero-video-box {
+  width: 100%;
+  min-height: 420px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(circle at center, #ffffff 0%, #f5f4f4 100%);
+  padding: 56px 16px 24px 16px;
+  margin-top: 24px;
+  box-sizing: border-box;
+}
+
+/* Phone Mockup Frame */
+.html-body .phone-mockup {
+  position: relative;
+  width: 215px;
+  height: 430px;
+  background: #1a1c1c;
+  border-radius: 38px;
+  box-shadow:
+    0 0 0 2px #d1d5db,
+    0 0 0 5px #1a1c1c,
+    0 20px 40px rgba(0, 0, 0, 0.2),
+    0 4px 12px rgba(184, 0, 20, 0.08);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+/* Dynamic Island / Notch */
+.html-body .phone-speaker-notch {
+  position: absolute;
+  top: 9px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 68px;
+  height: 16px;
+  background: #000000;
+  border-radius: 12px;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 7px;
+  box-sizing: border-box;
+  box-shadow: 0 1px 3px rgba(255, 255, 255, 0.1);
+}
+
+.html-body .phone-camera-lens {
+  width: 7px;
+  height: 7px;
+  background: #111a2e;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* Screen Area */
+.html-body .phone-screen-screen {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 34px;
+  overflow: hidden;
+  background: #000;
+}
+
+.html-body .hero-video-player {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  outline: none;
+  background: #000;
+}
+
+/* Home Bar Indicator */
+.html-body .phone-home-indicator {
+  position: absolute;
+  bottom: 7px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 76px;
+  height: 3.5px;
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 4px;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.html-body .hero-slider-arrow {
+  all: unset;
+  box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 36px;
+  height: 36px;
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  color: #1a1c1c;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 15;
+  transition: all 0.2s ease;
+  border: 1px solid #e7bdb8;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.html-body .hero-slider-arrow:hover {
+  background: #b80014;
+  color: #ffffff;
+  border-color: #b80014;
+  transform: translateY(-50%) scale(1.08);
+}
+
+.html-body .hero-slider-arrow.prev {
+  left: 12px;
+}
+
+.html-body .hero-slider-arrow.next {
+  right: 12px;
+}
+
+.html-body .hero-slider-dots {
+  position: absolute;
+  bottom: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+  z-index: 15;
+}
+
+.html-body .hero-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: rgba(184, 0, 20, 0.25);
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.html-body .hero-dot.active {
+  width: 22px;
+  border-radius: 10px;
+  background: #b80014;
 }
